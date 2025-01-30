@@ -23,6 +23,7 @@ public class GetTest {
 		
 		int statusCode=response.statusCode();
 		Assert.assertEquals(statusCode, 200);
+		Assert.assertEquals(statusCode, 200);
 	}
 	@Test
 	public void test2() {
