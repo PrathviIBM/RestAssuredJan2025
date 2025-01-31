@@ -38,7 +38,7 @@ public class GetTest {
 			//log().all();
 	}
 	@Test
-	public void test3() {
+	public void test3() { 
 		Response response = given()
                 .when()
                 .get("https://reqres.in/api/users?page=2") // Replace with your API URL
